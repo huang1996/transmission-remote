@@ -1,0 +1,50 @@
+# License
+
+`TransmissionRemote` is distributed under the same dual license as the Transmission project it
+speaks to:
+
+**SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only**
+
+You may use this SDK under the terms of either:
+
+- the **GNU General Public License, version 2** (GPL-2.0-only), or
+- the **GNU General Public License, version 3** (GPL-3.0-only),
+
+at your option. The canonical texts are available at:
+
+- <https://www.gnu.org/licenses/old-licenses/gpl-2.0.html>
+- <https://www.gnu.org/licenses/gpl-3.0.html>
+
+## Why the GPL rather than a permissive license
+
+Two of the source files are **generated from the Transmission source tree** and are therefore
+derivative works of it:
+
+| Generated file | Derived from |
+|:--|:--|
+| `transmission_sdk/src/main/ets/compat/LegacyKeys.ets` | `libtransmission/api-compat.cc`, `libtransmission/quark.{h,cc}` |
+| `transmission_sdk/src/main/ets/constants/RpcFields.ets` | `docs/rpc-spec.md` |
+| `transmission_sdk/src/main/ets/model/SessionSetRequest.ets` | `docs/rpc-spec.md` |
+
+Transmission is Copyright © Mnemosyne LLC and is itself dual-licensed under GPL-2.0-only or
+GPL-3.0-only. Applying a permissive license to those generated tables would misrepresent their
+provenance, so the whole SDK carries the same dual license.
+
+The generators in `scripts/` only *read* the Transmission checkout; they do not copy code into the
+build at run time. Everything else in this repository — the transport port, the RPC engine, the
+compatibility layer's logic, the models, the tests and the sample application — was written for this
+project.
+
+## Note for application developers
+
+If your HarmonyOS application cannot be distributed under the GPL, you have two options:
+
+1. Re-derive the two tables from the RPC specification yourself. `docs/rpc-spec.md` (the protocol
+   documentation) is a specification, not code, and the mechanical mappings (`percent_done` →
+   `percentDone`, …) can be written independently; only the C++ table transcription is derivative.
+   `scripts/generate-legacy-keys.mjs` documents exactly which rows are needed.
+2. Talk to the Transmission maintainers (Mnemosyne LLC) about the terms that apply to your use; the
+   upstream project already offers an "or any future license endorsed by Mnemosyne LLC" option on its
+   files.
+
+This file is a plain-language summary, not legal advice.

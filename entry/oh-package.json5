@@ -1,0 +1,12 @@
+{
+  "modelVersion": "5.0.0",
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "TransmissionRemote application module — torrent list, torrent detail, add, servers and options.",
+  "main": "",
+  "author": "TransmissionRemote contributors",
+  "license": "GPL-2.0-only OR GPL-3.0-only",
+  "dependencies": {
+    "transmission_sdk": "file:../transmission_sdk"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "modelVersion": "5.0.0",
+  "name": "transmission_sdk",
+  "version": "1.0.0",
+  "description": "ArkTS SDK for the Transmission BitTorrent RPC API. Speaks the modern JSON-RPC 2.0 dialect (Transmission >= 4.1.0, rpc-version-semver >= 6.0.0) and the legacy bespoke dialect (Transmission < 4.1.0), negotiated automatically.",
+  "main": "index.ets",
+  "author": "TransmissionRemote contributors",
+  "license": "GPL-2.0-only OR GPL-3.0-only",
+  "dependencies": {},
+  "devDependencies": {
+    "@ohos/hypium": "1.0.19"
+  }
+}

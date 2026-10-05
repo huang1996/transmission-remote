@@ -1,0 +1,55 @@
+# ============================================================
+# TransmissionRemote .gitignore
+# 非锚定模式（不含开头/中间斜杠）会自动匹配任意层级，
+# 因此 entry/build、transmission_sdk/build 等无需重复配置。
+# ============================================================
+
+# ==== 依赖目录（可由 ohpm install / npm install 重建）====
+node_modules/
+oh_modules/
+
+# ==== hvigor 构建缓存与产物 ====
+.hvigor/
+build/
+.cxx/
+*.har
+
+# ==== DevEco Previewer / Test Framework 运行时缓存 ====
+.preview/
+.test/
+
+# ==== DevEco 配套工具产物 ====
+/.appanalyzer
+/.clangd
+/.clang-format
+/.clang-tidy
+
+# ==== IDE 元数据 ====
+.idea/
+*.iml
+
+# ==== 机器相关本地配置（SDK / Node 路径）====
+local.properties
+
+# ==== 签名物料：绝不允许提交 ====
+# 注意：工程根目录的 build-profile.json5 是【有意提交】的，不要把它加进忽略列表。
+# 原因：signingConfigs[].material 是 hvigor 的 schema 必填项，删掉会直接
+# 报 00303038 Configuration Error（配置校验阶段即失败）。
+# 其中 storePassword/keyPassword 是 DevEco 用 ~/.ohos 下的密钥加密后的密文，
+# 而 ~/.ohos 不在本仓库内，因此密文脱离本机无法解密。
+*.p12
+*.jks
+*.keystore
+*.cer
+*.p7b
+
+# ==== 编码 / AI 辅助工作区 ====
+.workbuddy/
+
+# ==== 系统与编辑器噪声 ====
+.DS_Store
+Thumbs.db
+*.log
+
+# ==== parallel test-harness 构建目录（含 .node-build、.node-build-1 等）====
+.node-build*/

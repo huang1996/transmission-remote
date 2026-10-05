@@ -1,0 +1,5 @@
+# The sample app only calls the SDK's public API, so its own symbols may be
+# renamed freely. Keys exchanged with the SDK must not be.
+-enable-property-obfuscation
+-enable-toplevel-obfuscation
+-enable-filename-obfuscation

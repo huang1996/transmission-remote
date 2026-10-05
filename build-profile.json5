@@ -1,0 +1,64 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\dream\\.ohos\\config\\default_transmission-remote_cXsZ3Va9Zj6o2mBK_9gZ93CYdx2DTFQWQy9FeI5cTjU=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "${KEY_PASSWORD}",
+          "profile": "C:\\Users\\dream\\.ohos\\config\\default_transmission-remote_cXsZ3Va9Zj6o2mBK_9gZ93CYdx2DTFQWQy9FeI5cTjU=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\dream\\.ohos\\config\\default_transmission-remote_cXsZ3Va9Zj6o2mBK_9gZ93CYdx2DTFQWQy9FeI5cTjU=.p12",
+          "storePassword": "${STORE_PASSWORD}"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        // Lowest API the app runs on. Kept at 12 so it still installs on
+        // HarmonyOS 5.0 devices.
+        "compatibleSdkVersion": "5.0.0(12)",
+        // API 26 == HarmonyOS 7.0.0. The app declares that it is adapted to it.
+        // This is the field hvigor warned about not being configured.
+        "targetSdkVersion": "26.0.0",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug"
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "transmission_sdk",
+      "srcPath": "./transmission_sdk"
+    },
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

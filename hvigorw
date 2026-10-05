@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+#
+# hvigor startup script (TransmissionRemote)
+#
+# Thin shim: locating the toolchain and exporting DEVECO_SDK_HOME / JAVA_HOME is
+# handled by scripts/run-hvigor.mjs, so this file stays identical in behaviour to
+# hvigorw.bat on Windows.
+#
+# Usage:
+#   ./hvigorw clean
+#   ./hvigorw assembleHar --mode module -p module=transmission_sdk@default
+#   ./hvigorw --print-env
+#
+# Set DEVECO_HOME if DevEco Studio is installed somewhere unusual:
+#   export DEVECO_HOME=/opt/deveco-studio
+#
+
+set -e
+
+HVIGOR_APP_HOME="$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)"
+
+if ! command -v node >/dev/null 2>&1; then
+	printf '\nERROR: node was not found in PATH.\n\n' >&2
+	printf 'hvigor itself needs Node.js to run.\n' >&2
+	exit 1
+fi
+
+exec node "${HVIGOR_APP_HOME}/scripts/run-hvigor.mjs" "$@"

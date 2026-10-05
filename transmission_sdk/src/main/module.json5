@@ -1,0 +1,10 @@
+{
+  "module": {
+    "name": "transmission_sdk",
+    "type": "har",
+    "deviceTypes": [
+      "tablet",
+      "phone"
+    ]
+  }
+}

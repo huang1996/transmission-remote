@@ -1,0 +1,26 @@
+# Obfuscation rules for the Transmission SDK HAR.
+#
+# This HAR is a *library*: every symbol reachable through `transmission_sdk` is
+# part of the public API and is called by name from the consuming application.
+#
+# Property and export obfuscation are therefore deliberately NOT enabled here.
+# Renaming them would break consumers at run time in ways the compiler cannot
+# catch:
+#
+#   client.torrents            (public field)
+#   torrent.percentDone        (public model field)
+#   request.toJson()           (public method)
+#
+# The consuming application's own release build decides whether to obfuscate its
+# code, and DevEco coordinates cross-module renaming from that side. If you do
+# want to shrink this HAR further, enable `-enable-property-obfuscation` and
+# `-enable-export-obfuscation` here *and* add the full list of exported names
+# with `-keep-global-name`, plus every RPC key with `-keep-property-name`
+# (`jsonrpc`, `method`, `params`, `arguments`, `result`, `error`, `id`, `tag`,
+# `code`, `message`, `data`, `torrents`, `fields`, `ids`, `format`, `wanted`,
+# `download_dir`, `percent_done`, …) — the wire keys are exchanged verbatim with
+# the server, so renaming any of them silently corrupts every request.
+
+# Shrinks internal, non-exported top-level symbols. Exported names declared in
+# `index.ets` are always preserved by the toolchain.
+-enable-toplevel-obfuscation

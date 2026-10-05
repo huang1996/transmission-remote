@@ -1,0 +1,1136 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "Transmission 客户端"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "Transmission 客户端"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Transmission Remote"
+    },
+    {
+      "name": "common_ok",
+      "value": "确定"
+    },
+    {
+      "name": "common_cancel",
+      "value": "取消"
+    },
+    {
+      "name": "common_save",
+      "value": "保存"
+    },
+    {
+      "name": "common_delete",
+      "value": "删除"
+    },
+    {
+      "name": "common_remove",
+      "value": "移除"
+    },
+    {
+      "name": "common_edit",
+      "value": "编辑"
+    },
+    {
+      "name": "common_add",
+      "value": "添加"
+    },
+    {
+      "name": "common_close",
+      "value": "关闭"
+    },
+    {
+      "name": "common_retry",
+      "value": "重试"
+    },
+    {
+      "name": "common_rename",
+      "value": "重命名"
+    },
+    {
+      "name": "common_search",
+      "value": "搜索"
+    },
+    {
+      "name": "common_none",
+      "value": "无"
+    },
+    {
+      "name": "common_unknown",
+      "value": "未知"
+    },
+    {
+      "name": "common_enabled",
+      "value": "已启用"
+    },
+    {
+      "name": "common_disabled",
+      "value": "已禁用"
+    },
+    {
+      "name": "common_all",
+      "value": "全部"
+    },
+    {
+      "name": "common_colon",
+      "value": "："
+    },
+    {
+      "name": "page_title_torrents",
+      "value": "种子列表"
+    },
+    {
+      "name": "page_title_detail",
+      "value": "种子详情"
+    },
+    {
+      "name": "page_title_add",
+      "value": "添加种子"
+    },
+    {
+      "name": "page_title_servers",
+      "value": "服务器"
+    },
+    {
+      "name": "page_title_settings",
+      "value": "选项"
+    },
+    {
+      "name": "page_title_about",
+      "value": "关于"
+    },
+    {
+      "name": "page_title_server_edit",
+      "value": "服务器"
+    },
+    {
+      "name": "drawer_servers",
+      "value": "服务器"
+    },
+    {
+      "name": "drawer_add_server",
+      "value": "添加服务器"
+    },
+    {
+      "name": "drawer_manage_servers",
+      "value": "管理服务器"
+    },
+    {
+      "name": "drawer_filter",
+      "value": "筛选"
+    },
+    {
+      "name": "drawer_sort",
+      "value": "排序方式"
+    },
+    {
+      "name": "drawer_night_mode",
+      "value": "夜间模式"
+    },
+    {
+      "name": "drawer_settings",
+      "value": "设置"
+    },
+    {
+      "name": "drawer_about",
+      "value": "关于"
+    },
+    {
+      "name": "drawer_free_space",
+      "value": "可用空间"
+    },
+    {
+      "name": "drawer_sort_ascending",
+      "value": "升序"
+    },
+    {
+      "name": "drawer_sort_descending",
+      "value": "降序"
+    },
+    {
+      "name": "filter_all",
+      "value": "全部"
+    },
+    {
+      "name": "filter_active",
+      "value": "活跃"
+    },
+    {
+      "name": "filter_downloading",
+      "value": "下载中"
+    },
+    {
+      "name": "filter_seeding",
+      "value": "做种中"
+    },
+    {
+      "name": "filter_paused",
+      "value": "已暂停"
+    },
+    {
+      "name": "filter_downloaded",
+      "value": "已下载"
+    },
+    {
+      "name": "filter_completed",
+      "value": "已完成"
+    },
+    {
+      "name": "sort_queue",
+      "value": "队列顺序"
+    },
+    {
+      "name": "sort_activity",
+      "value": "Activity"
+    },
+    {
+      "name": "sort_added_date",
+      "value": "添加日期"
+    },
+    {
+      "name": "sort_last_activity",
+      "value": "最后活动"
+    },
+    {
+      "name": "sort_name",
+      "value": "名称"
+    },
+    {
+      "name": "sort_progress",
+      "value": "进度"
+    },
+    {
+      "name": "sort_size",
+      "value": "大小"
+    },
+    {
+      "name": "sort_state",
+      "value": "State"
+    },
+    {
+      "name": "sort_eta",
+      "value": "剩余时间"
+    },
+    {
+      "name": "sort_ratio",
+      "value": "分享率"
+    },
+    {
+      "name": "sort_download_speed",
+      "value": "下载速度"
+    },
+    {
+      "name": "sort_upload_speed",
+      "value": "上传速度"
+    },
+    {
+      "name": "list_empty",
+      "value": "暂无种子"
+    },
+    {
+      "name": "list_empty_filtered",
+      "value": "没有符合筛选条件的种子"
+    },
+    {
+      "name": "list_swipe_start",
+      "value": "开始"
+    },
+    {
+      "name": "list_swipe_pause",
+      "value": "暂停"
+    },
+    {
+      "name": "list_swipe_verify",
+      "value": "校验"
+    },
+    {
+      "name": "list_swipe_reannounce",
+      "value": "重新汇报"
+    },
+    {
+      "name": "list_swipe_remove",
+      "value": "移除"
+    },
+    {
+      "name": "list_swipe_delete",
+      "value": "删除数据"
+    },
+    {
+      "name": "list_swipe_edit",
+      "value": "编辑"
+    },
+    {
+      "name": "list_verify_requested",
+      "value": "已请求校验"
+    },
+    {
+      "name": "list_reannounce_requested",
+      "value": "已请求重新汇报"
+    },
+    {
+      "name": "list_remove_confirm_title",
+      "value": "移除种子？"
+    },
+    {
+      "name": "list_remove_confirm_message",
+      "value": "已下载的文件会被保留。"
+    },
+    {
+      "name": "list_delete_confirm_title",
+      "value": "移除并删除数据？"
+    },
+    {
+      "name": "list_delete_confirm_message",
+      "value": "已下载的文件将从服务器上删除。"
+    },
+    {
+      "name": "state_stopped",
+      "value": "已暂停"
+    },
+    {
+      "name": "state_queued_verify",
+      "value": "等待校验"
+    },
+    {
+      "name": "state_verifying",
+      "value": "校验中"
+    },
+    {
+      "name": "state_queued_download",
+      "value": "排队中"
+    },
+    {
+      "name": "state_downloading",
+      "value": "下载中"
+    },
+    {
+      "name": "state_queued_seed",
+      "value": "等待做种"
+    },
+    {
+      "name": "state_seeding",
+      "value": "做种中"
+    },
+    {
+      "name": "state_finished",
+      "value": "已完成"
+    },
+    {
+      "name": "state_error",
+      "value": "错误"
+    },
+    {
+      "name": "state_verifying_progress",
+      "value": "正在检查已存在的数据（%s）"
+    },
+    {
+      "name": "state_downloading_progress",
+      "value": "正在下载数据（%s）"
+    },
+    {
+      "name": "list_uploaded_ratio",
+      "value": "%s（分享率：%s）"
+    },
+    {
+      "name": "detail_tab_info",
+      "value": "信息"
+    },
+    {
+      "name": "detail_tab_files",
+      "value": "文件"
+    },
+    {
+      "name": "detail_tab_trackers",
+      "value": "服务器"
+    },
+    {
+      "name": "detail_tab_peers",
+      "value": "节点"
+    },
+    {
+      "name": "detail_tab_options",
+      "value": "选项"
+    },
+    {
+      "name": "detail_field_hash",
+      "value": "哈希"
+    },
+    {
+      "name": "detail_field_uploaded",
+      "value": "已上传"
+    },
+    {
+      "name": "detail_field_eta",
+      "value": "剩余时间"
+    },
+    {
+      "name": "detail_field_location",
+      "value": "位置"
+    },
+    {
+      "name": "detail_field_added",
+      "value": "添加时间"
+    },
+    {
+      "name": "detail_field_created",
+      "value": "创建时间"
+    },
+    {
+      "name": "detail_field_started",
+      "value": "开始时间"
+    },
+    {
+      "name": "detail_field_finished",
+      "value": "完成时间"
+    },
+    {
+      "name": "detail_field_last_activity",
+      "value": "最后活动"
+    },
+    {
+      "name": "detail_field_creator",
+      "value": "创建者"
+    },
+    {
+      "name": "detail_field_comment",
+      "value": "注释"
+    },
+    {
+      "name": "detail_field_privacy",
+      "value": "私有种子"
+    },
+    {
+      "name": "detail_field_public",
+      "value": "公开种子"
+    },
+    {
+      "name": "detail_field_peers",
+      "value": "节点"
+    },
+    {
+      "name": "detail_field_trackers",
+      "value": "服务器"
+    },
+    {
+      "name": "detail_field_error",
+      "value": "错误"
+    },
+    {
+      "name": "detail_field_group",
+      "value": "带宽组"
+    },
+    {
+      "name": "detail_field_labels",
+      "value": "标签"
+    },
+    {
+      "name": "info_section_torrent",
+      "value": "种子信息"
+    },
+    {
+      "name": "info_section_transfer",
+      "value": "传输"
+    },
+    {
+      "name": "info_section_dates",
+      "value": "日期"
+    },
+    {
+      "name": "info_section_runtime",
+      "value": "运行时间"
+    },
+    {
+      "name": "info_field_total_size",
+      "value": "总计大小"
+    },
+    {
+      "name": "info_field_total_downloaded",
+      "value": "总计下载"
+    },
+    {
+      "name": "info_field_average_speed",
+      "value": "平均速度"
+    },
+    {
+      "name": "info_field_current_speed",
+      "value": "当前速度"
+    },
+    {
+      "name": "info_field_availability",
+      "value": "可用"
+    },
+    {
+      "name": "info_field_magnet",
+      "value": "Magnet"
+    },
+    {
+      "name": "info_runtime_downloaded",
+      "value": "下载"
+    },
+    {
+      "name": "info_runtime_seeded",
+      "value": "做种"
+    },
+    {
+      "name": "info_size_with_pieces",
+      "value": "%s（%s 个 %s 的块）"
+    },
+    {
+      "name": "info_downloaded_with_percent",
+      "value": "%s（%s）"
+    },
+    {
+      "name": "info_uploaded_with_ratio",
+      "value": "%s（分享率：%s）"
+    },
+    {
+      "name": "action_start",
+      "value": "开始"
+    },
+    {
+      "name": "action_pause",
+      "value": "暂停"
+    },
+    {
+      "name": "action_verify",
+      "value": "校验本地数据"
+    },
+    {
+      "name": "action_reannounce",
+      "value": "寻求更多节点"
+    },
+    {
+      "name": "action_rename",
+      "value": "重命名"
+    },
+    {
+      "name": "action_set_location",
+      "value": "设置保存位置"
+    },
+    {
+      "name": "action_share",
+      "value": "分享种子"
+    },
+    {
+      "name": "action_remove",
+      "value": "删除种子"
+    },
+    {
+      "name": "action_rename_hint",
+      "value": "新名称"
+    },
+    {
+      "name": "action_rename_empty",
+      "value": "请输入名称"
+    },
+    {
+      "name": "action_location_hint",
+      "value": "/downloads/music"
+    },
+    {
+      "name": "action_location_empty",
+      "value": "请输入路径"
+    },
+    {
+      "name": "action_location_move",
+      "value": "同时移动已下载的文件"
+    },
+    {
+      "name": "action_share_failed",
+      "value": "无法打开分享面板"
+    },
+    {
+      "name": "action_requested",
+      "value": "已提交"
+    },
+    {
+      "name": "files_progress",
+      "value": "%s / %s（%s）"
+    },
+    {
+      "name": "trackers_last_update",
+      "value": "最后更新"
+    },
+    {
+      "name": "trackers_next_update",
+      "value": "下一次更新于"
+    },
+    {
+      "name": "trackers_last_scrape",
+      "value": "最后刮擦"
+    },
+    {
+      "name": "trackers_seeds",
+      "value": "种子"
+    },
+    {
+      "name": "trackers_peers",
+      "value": "下载"
+    },
+    {
+      "name": "trackers_downloaded",
+      "value": "已下载"
+    },
+    {
+      "name": "trackers_level",
+      "value": "层级 %s"
+    },
+    {
+      "name": "trackers_announce_state",
+      "value": "汇报"
+    },
+    {
+      "name": "trackers_scrape_state",
+      "value": "抓取"
+    },
+    {
+      "name": "trackers_state_inactive",
+      "value": "空闲"
+    },
+    {
+      "name": "trackers_state_waiting",
+      "value": "等待中"
+    },
+    {
+      "name": "trackers_state_queued",
+      "value": "排队中"
+    },
+    {
+      "name": "trackers_state_active",
+      "value": "活跃"
+    },
+    {
+      "name": "peers_address",
+      "value": "地址"
+    },
+    {
+      "name": "peers_client",
+      "value": "客户端"
+    },
+    {
+      "name": "peers_progress",
+      "value": "进度"
+    },
+    {
+      "name": "peers_down",
+      "value": "下载"
+    },
+    {
+      "name": "peers_up",
+      "value": "上传"
+    },
+    {
+      "name": "peers_flags",
+      "value": "标志"
+    },
+    {
+      "name": "peers_encrypted",
+      "value": "已加密"
+    },
+    {
+      "name": "peers_incoming",
+      "value": "主动连接"
+    },
+    {
+      "name": "options_transfer",
+      "value": "传输"
+    },
+    {
+      "name": "options_download_limit",
+      "value": "下载限速"
+    },
+    {
+      "name": "options_upload_limit",
+      "value": "上传限速"
+    },
+    {
+      "name": "options_speed_unit",
+      "value": "KB/s"
+    },
+    {
+      "name": "options_priority",
+      "value": "优先级"
+    },
+    {
+      "name": "options_priority_low",
+      "value": "低"
+    },
+    {
+      "name": "options_priority_normal",
+      "value": "普通"
+    },
+    {
+      "name": "options_priority_high",
+      "value": "高"
+    },
+    {
+      "name": "options_sequential",
+      "value": "顺序下载"
+    },
+    {
+      "name": "options_seeding",
+      "value": "做种"
+    },
+    {
+      "name": "options_ratio_mode",
+      "value": "分享率限制"
+    },
+    {
+      "name": "options_ratio_limit",
+      "value": "分享率数值"
+    },
+    {
+      "name": "options_idle_mode",
+      "value": "闲置限制"
+    },
+    {
+      "name": "options_idle_limit",
+      "value": "闲置分钟数"
+    },
+    {
+      "name": "options_mode_global",
+      "value": "使用全局设置"
+    },
+    {
+      "name": "options_mode_single",
+      "value": "自定义"
+    },
+    {
+      "name": "options_mode_unlimited",
+      "value": "不限制"
+    },
+    {
+      "name": "options_other",
+      "value": "其他"
+    },
+    {
+      "name": "options_queue_position",
+      "value": "队列位置"
+    },
+    {
+      "name": "options_peer_limit",
+      "value": "连接数上限"
+    },
+    {
+      "name": "options_group",
+      "value": "带宽组"
+    },
+    {
+      "name": "options_labels",
+      "value": "标签"
+    },
+    {
+      "name": "options_labels_hint",
+      "value": "多个标签用逗号分隔"
+    },
+    {
+      "name": "options_saved",
+      "value": "已保存"
+    },
+    {
+      "name": "add_method",
+      "value": "添加方式"
+    },
+    {
+      "name": "add_method_link",
+      "value": "链接"
+    },
+    {
+      "name": "add_method_file",
+      "value": "文件"
+    },
+    {
+      "name": "add_link_hint",
+      "value": "magnet: 或 https://…/file.torrent"
+    },
+    {
+      "name": "add_pick_file",
+      "value": "选择 .torrent 文件"
+    },
+    {
+      "name": "add_no_file",
+      "value": "未选择文件"
+    },
+    {
+      "name": "add_download_dir",
+      "value": "下载到"
+    },
+    {
+      "name": "add_download_dir_hint",
+      "value": "留空则使用服务器默认目录"
+    },
+    {
+      "name": "add_start_paused",
+      "value": "添加后暂停"
+    },
+    {
+      "name": "add_submit",
+      "value": "添加"
+    },
+    {
+      "name": "add_result_added",
+      "value": "种子已添加"
+    },
+    {
+      "name": "add_result_duplicate",
+      "value": "列表中已存在"
+    },
+    {
+      "name": "add_need_input",
+      "value": "请输入链接或选择文件"
+    },
+    {
+      "name": "add_files_title",
+      "value": "要下载的文件"
+    },
+    {
+      "name": "add_files_selected",
+      "value": "已选 %s / %s 个文件（%s）"
+    },
+    {
+      "name": "add_files_none",
+      "value": "请至少勾选一个文件"
+    },
+    {
+      "name": "add_files_invalid",
+      "value": "不是有效的 .torrent 文件"
+    },
+    {
+      "name": "servers_empty",
+      "value": "还没有服务器"
+    },
+    {
+      "name": "servers_empty_hint",
+      "value": "添加一个服务器开始使用"
+    },
+    {
+      "name": "servers_name",
+      "value": "名称"
+    },
+    {
+      "name": "servers_name_hint",
+      "value": "例如：NAS"
+    },
+    {
+      "name": "servers_host",
+      "value": "主机"
+    },
+    {
+      "name": "servers_host_hint",
+      "value": "IP 地址或域名"
+    },
+    {
+      "name": "servers_port",
+      "value": "端口"
+    },
+    {
+      "name": "servers_path",
+      "value": "RPC 路径"
+    },
+    {
+      "name": "servers_path_hint",
+      "value": "/transmission/rpc"
+    },
+    {
+      "name": "servers_secure",
+      "value": "使用 HTTPS"
+    },
+    {
+      "name": "servers_secure_desc",
+      "value": "与服务器之间的连接将加密"
+    },
+    {
+      "name": "servers_username",
+      "value": "用户名"
+    },
+    {
+      "name": "servers_username_hint",
+      "value": "可选"
+    },
+    {
+      "name": "servers_password",
+      "value": "密码"
+    },
+    {
+      "name": "servers_password_hint",
+      "value": "可选"
+    },
+    {
+      "name": "servers_test",
+      "value": "测试连接"
+    },
+    {
+      "name": "servers_testing",
+      "value": "测试中…"
+    },
+    {
+      "name": "servers_test_ok",
+      "value": "连接成功"
+    },
+    {
+      "name": "servers_delete_confirm",
+      "value": "删除该服务器？"
+    },
+    {
+      "name": "servers_invalid_host",
+      "value": "请输入主机名或 IP 地址"
+    },
+    {
+      "name": "servers_invalid_port",
+      "value": "端口必须在 1 到 65535 之间"
+    },
+    {
+      "name": "selection_count",
+      "value": "已选 %s 项"
+    },
+    {
+      "name": "selection_select_all",
+      "value": "全选"
+    },
+    {
+      "name": "settings_theme",
+      "value": "外观"
+    },
+    {
+      "name": "settings_theme_system",
+      "value": "跟随系统"
+    },
+    {
+      "name": "settings_theme_light",
+      "value": "浅色"
+    },
+    {
+      "name": "settings_theme_dark",
+      "value": "深色"
+    },
+    {
+      "name": "settings_refresh",
+      "value": "更新间隔"
+    },
+    {
+      "name": "settings_refresh_desc",
+      "value": "种子列表更新间隔"
+    },
+    {
+      "name": "settings_refresh_off",
+      "value": "仅手动"
+    },
+    {
+      "name": "settings_notifications",
+      "value": "通知"
+    },
+    {
+      "name": "settings_notifications_desc",
+      "value": "种子完成通知"
+    },
+    {
+      "name": "settings_show_fab",
+      "value": "显示“添加种子”浮动按钮"
+    },
+    {
+      "name": "settings_show_fab_desc",
+      "value": "种子列表右下角的浮动按钮"
+    },
+    {
+      "name": "settings_advanced",
+      "value": "高级"
+    },
+    {
+      "name": "settings_advanced_desc",
+      "value": "连接与协议调整"
+    },
+    {
+      "name": "settings_timeout",
+      "value": "请求超时"
+    },
+    {
+      "name": "settings_timeout_desc",
+      "value": "请求超时时间（秒）"
+    },
+    {
+      "name": "settings_api_style",
+      "value": "接口协议"
+    },
+    {
+      "name": "settings_api_style_desc",
+      "value": "仅在自动识别异常时修改"
+    },
+    {
+      "name": "settings_api_style_auto",
+      "value": "自动识别"
+    },
+    {
+      "name": "settings_api_style_modern",
+      "value": "JSON-RPC（4.1.0+）"
+    },
+    {
+      "name": "settings_api_style_legacy",
+      "value": "旧版（< 4.1.0）"
+    },
+    {
+      "name": "settings_section_general",
+      "value": "通用"
+    },
+    {
+      "name": "settings_section_connection",
+      "value": "连接"
+    },
+    {
+      "name": "status_not_connected",
+      "value": "未连接"
+    },
+    {
+      "name": "status_connecting",
+      "value": "连接中…"
+    },
+    {
+      "name": "status_no_server",
+      "value": "请先添加服务器"
+    },
+    {
+      "name": "status_disconnected",
+      "value": "已断开"
+    },
+    {
+      "name": "error_network",
+      "value": "无法连接服务器"
+    },
+    {
+      "name": "error_auth",
+      "value": "认证失败"
+    },
+    {
+      "name": "error_timeout",
+      "value": "服务器响应超时"
+    },
+    {
+      "name": "error_protocol",
+      "value": "服务器响应异常"
+    },
+    {
+      "name": "error_config",
+      "value": "配置无效"
+    },
+    {
+      "name": "error_unsupported",
+      "value": "服务器不支持该操作"
+    },
+    {
+      "name": "notification_channel",
+      "value": "种子完成"
+    },
+    {
+      "name": "notification_done_title",
+      "value": "下载完成"
+    },
+    {
+      "name": "about_version",
+      "value": "版本 %s（%s）"
+    },
+    {
+      "name": "about_intro_title",
+      "value": "简介"
+    },
+    {
+      "name": "about_intro",
+      "value": "一个 HarmonyOS 上的 Transmission 远程控制客户端。它通过 RPC 接口直接连接守护进程，中间没有云端服务，也不需要注册任何账号。项目开源地址https://github.com/huang1996/transmission-remote"
+    },
+    {
+      "name": "about_features_title",
+      "value": "功能"
+    },
+    {
+      "name": "about_feature_torrents",
+      "value": "种子管理"
+    },
+    {
+      "name": "about_feature_torrents_desc",
+      "value": "开始、暂停、校验、重新汇报、移除；长按进入多选后批量操作"
+    },
+    {
+      "name": "about_feature_files",
+      "value": "选择性下载"
+    },
+    {
+      "name": "about_feature_files_desc",
+      "value": "按文件选择要下载的内容；已下载完成的文件会被锁定"
+    },
+    {
+      "name": "about_feature_detail",
+      "value": "详情"
+    },
+    {
+      "name": "about_feature_detail_desc",
+      "value": "节点、Tracker、单种限速、做种规则与文件浏览"
+    },
+    {
+      "name": "about_feature_servers",
+      "value": "服务器"
+    },
+    {
+      "name": "about_feature_servers_desc",
+      "value": "保存多个守护进程并在其间切换"
+    },
+    {
+      "name": "about_feature_appearance",
+      "value": "外观"
+    },
+    {
+      "name": "about_feature_appearance_desc",
+      "value": "明暗两套配色，可跟随系统或手动指定"
+    },
+    {
+      "name": "about_compat_title",
+      "value": "兼容性"
+    },
+    {
+      "name": "about_compat_rpc",
+      "value": "同时支持现代的 JSON-RPC 2.0 接口（Transmission 4.1 及更新）与早期的私有接口，旧版守护进程无需改动即可使用。"
+    },
+    {
+      "name": "about_compat_platform",
+      "value": "需要 HarmonyOS 5.0（API 12）或更高版本，基于 Stage 模型构建。"
+    },
+    {
+      "name": "about_license_title",
+      "value": "开源许可"
+    },
+    {
+      "name": "about_license_value",
+      "value": "GPL-2.0-only OR GPL-3.0-only"
+    },
+    {
+      "name": "about_license_note",
+      "value": "与它所通信的 Transmission 项目采用同一套双许可。部分常量表由 Transmission 源码树生成，这也是许可随之沿用下来的原因。"
+    },
+    {
+      "name": "about_build_title",
+      "value": "构建信息"
+    },
+    {
+      "name": "about_build_package",
+      "value": "包名"
+    },
+    {
+      "name": "about_build_version",
+      "value": "版本"
+    },
+    {
+      "name": "about_build_version_code",
+      "value": "版本号"
+    },
+    {
+      "name": "about_build_target",
+      "value": "目标 API"
+    },
+    {
+      "name": "about_copyright",
+      "value": "© Transmission Remote contributors"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "TransmissionRemote",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "TransmissionRemote — a HarmonyOS client for the Transmission BitTorrent daemon, plus the ArkTS RPC SDK behind it. Host-side Node.js tooling lives in scripts/.",
+  "scripts": {
+    "lint": "node scripts/lint-arkts.mjs",
+    "test": "node scripts/lint-arkts.mjs && node scripts/run-tests.mjs",
+    "typecheck": "node scripts/lint-arkts.mjs && node scripts/run-tests.mjs --no-emit",
+    "build": "node scripts/run-hvigor.mjs assembleHap -p product=default -p buildMode=debug",
+    "build:har": "node scripts/run-hvigor.mjs assembleHar --mode module -p module=transmission_sdk@default -p product=default",
+    "build:app": "node scripts/run-hvigor.mjs assembleApp --mode project -p product=default -p buildMode=release",
+    "clean": "node scripts/run-hvigor.mjs clean",
+    "env": "node scripts/run-hvigor.mjs --print-env"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "color": [
+    {
+      "name": "app_background",
+      "value": "#12171F"
+    },
+    {
+      "name": "surface",
+      "value": "#1B222D"
+    },
+    {
+      "name": "surface_alt",
+      "value": "#222B38"
+    },
+    {
+      "name": "surface_pressed",
+      "value": "#26303E"
+    },
+    {
+      "name": "drawer_background",
+      "value": "#171E28"
+    },
+    {
+      "name": "text_primary",
+      "value": "#E7ECF3"
+    },
+    {
+      "name": "text_secondary",
+      "value": "#98A2B3"
+    },
+    {
+      "name": "text_tertiary",
+      "value": "#6B7684"
+    },
+    {
+      "name": "text_on_accent",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "divider",
+      "value": "#2A3441"
+    },
+    {
+      "name": "accent",
+      "value": "#4C8DFF"
+    },
+    {
+      "name": "accent_soft",
+      "value": "#1E2C44"
+    },
+    {
+      "name": "icon",
+      "value": "#98A2B3"
+    },
+    {
+      "name": "icon_active",
+      "value": "#4C8DFF"
+    },
+    {
+      "name": "success",
+      "value": "#3DD68C"
+    },
+    {
+      "name": "warning",
+      "value": "#FFB020"
+    },
+    {
+      "name": "danger",
+      "value": "#FF6B6B"
+    },
+    {
+      "name": "progress_track",
+      "value": "#2A3441"
+    },
+    {
+      "name": "progress_fill",
+      "value": "#4C8DFF"
+    },
+    {
+      "name": "progress_fill_done",
+      "value": "#3DD68C"
+    },
+    {
+      "name": "progress_fill_error",
+      "value": "#FF6B6B"
+    },
+    {
+      "name": "progress_fill_verify",
+      "value": "#FFB020"
+    },
+    {
+      "name": "scrim",
+      "value": "#99000000"
+    },
+    {
+      "name": "fab_background",
+      "value": "#4C8DFF"
+    },
+    {
+      "name": "fab_label_background",
+      "value": "#2A3441"
+    },
+    {
+      "name": "selected_row",
+      "value": "#1E2C44"
+    },
+    {
+      "name": "start_window_background",
+      "value": "#12171F"
+    },
+    {
+      "name": "bottom_bar_background",
+      "value": "#171E28"
+    },
+    {
+      "name": "top_bar_background",
+      "value": "#171E28"
+    }
+  ]
+}

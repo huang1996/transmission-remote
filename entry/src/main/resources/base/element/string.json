@@ -1,0 +1,1136 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "Transmission client"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "Transmission client"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Transmission Remote"
+    },
+    {
+      "name": "common_ok",
+      "value": "OK"
+    },
+    {
+      "name": "common_cancel",
+      "value": "Cancel"
+    },
+    {
+      "name": "common_save",
+      "value": "Save"
+    },
+    {
+      "name": "common_delete",
+      "value": "Delete"
+    },
+    {
+      "name": "common_remove",
+      "value": "Remove"
+    },
+    {
+      "name": "common_edit",
+      "value": "Edit"
+    },
+    {
+      "name": "common_add",
+      "value": "Add"
+    },
+    {
+      "name": "common_close",
+      "value": "Close"
+    },
+    {
+      "name": "common_retry",
+      "value": "Retry"
+    },
+    {
+      "name": "common_rename",
+      "value": "Rename"
+    },
+    {
+      "name": "common_search",
+      "value": "Search"
+    },
+    {
+      "name": "common_none",
+      "value": "None"
+    },
+    {
+      "name": "common_unknown",
+      "value": "Unknown"
+    },
+    {
+      "name": "common_enabled",
+      "value": "Enabled"
+    },
+    {
+      "name": "common_disabled",
+      "value": "Disabled"
+    },
+    {
+      "name": "common_all",
+      "value": "All"
+    },
+    {
+      "name": "common_colon",
+      "value": ":"
+    },
+    {
+      "name": "page_title_torrents",
+      "value": "Torrents"
+    },
+    {
+      "name": "page_title_detail",
+      "value": "Torrent details"
+    },
+    {
+      "name": "page_title_add",
+      "value": "Add torrent"
+    },
+    {
+      "name": "page_title_servers",
+      "value": "Servers"
+    },
+    {
+      "name": "page_title_settings",
+      "value": "Options"
+    },
+    {
+      "name": "page_title_about",
+      "value": "About"
+    },
+    {
+      "name": "page_title_server_edit",
+      "value": "Server"
+    },
+    {
+      "name": "drawer_servers",
+      "value": "Servers"
+    },
+    {
+      "name": "drawer_add_server",
+      "value": "Add server"
+    },
+    {
+      "name": "drawer_manage_servers",
+      "value": "Manage servers"
+    },
+    {
+      "name": "drawer_filter",
+      "value": "Filter"
+    },
+    {
+      "name": "drawer_sort",
+      "value": "Sort by"
+    },
+    {
+      "name": "drawer_night_mode",
+      "value": "Night mode"
+    },
+    {
+      "name": "drawer_settings",
+      "value": "Options"
+    },
+    {
+      "name": "drawer_about",
+      "value": "About"
+    },
+    {
+      "name": "drawer_free_space",
+      "value": "Free space"
+    },
+    {
+      "name": "drawer_sort_ascending",
+      "value": "Ascending"
+    },
+    {
+      "name": "drawer_sort_descending",
+      "value": "Descending"
+    },
+    {
+      "name": "filter_all",
+      "value": "All"
+    },
+    {
+      "name": "filter_active",
+      "value": "Active"
+    },
+    {
+      "name": "filter_downloading",
+      "value": "Downloading"
+    },
+    {
+      "name": "filter_seeding",
+      "value": "Seeding"
+    },
+    {
+      "name": "filter_paused",
+      "value": "Paused"
+    },
+    {
+      "name": "filter_downloaded",
+      "value": "Downloaded"
+    },
+    {
+      "name": "filter_completed",
+      "value": "Completed"
+    },
+    {
+      "name": "sort_queue",
+      "value": "Queue order"
+    },
+    {
+      "name": "sort_activity",
+      "value": "Activity"
+    },
+    {
+      "name": "sort_added_date",
+      "value": "Date added"
+    },
+    {
+      "name": "sort_last_activity",
+      "value": "Last activity"
+    },
+    {
+      "name": "sort_name",
+      "value": "Name"
+    },
+    {
+      "name": "sort_progress",
+      "value": "Progress"
+    },
+    {
+      "name": "sort_size",
+      "value": "Size"
+    },
+    {
+      "name": "sort_state",
+      "value": "State"
+    },
+    {
+      "name": "sort_eta",
+      "value": "Time remaining"
+    },
+    {
+      "name": "sort_ratio",
+      "value": "Ratio"
+    },
+    {
+      "name": "sort_download_speed",
+      "value": "Download speed"
+    },
+    {
+      "name": "sort_upload_speed",
+      "value": "Upload speed"
+    },
+    {
+      "name": "list_empty",
+      "value": "No torrents"
+    },
+    {
+      "name": "list_empty_filtered",
+      "value": "Nothing matches this filter"
+    },
+    {
+      "name": "list_swipe_start",
+      "value": "Resume"
+    },
+    {
+      "name": "list_swipe_pause",
+      "value": "Pause"
+    },
+    {
+      "name": "list_swipe_verify",
+      "value": "Verify"
+    },
+    {
+      "name": "list_swipe_reannounce",
+      "value": "Re-announce"
+    },
+    {
+      "name": "list_swipe_remove",
+      "value": "Remove"
+    },
+    {
+      "name": "list_swipe_delete",
+      "value": "Delete data"
+    },
+    {
+      "name": "list_swipe_edit",
+      "value": "Edit"
+    },
+    {
+      "name": "list_verify_requested",
+      "value": "Verification requested"
+    },
+    {
+      "name": "list_reannounce_requested",
+      "value": "Re-announce requested"
+    },
+    {
+      "name": "list_remove_confirm_title",
+      "value": "Remove torrent?"
+    },
+    {
+      "name": "list_remove_confirm_message",
+      "value": "The downloaded files are kept."
+    },
+    {
+      "name": "list_delete_confirm_title",
+      "value": "Remove and delete data?"
+    },
+    {
+      "name": "list_delete_confirm_message",
+      "value": "The downloaded files will be deleted from the server."
+    },
+    {
+      "name": "state_stopped",
+      "value": "Paused"
+    },
+    {
+      "name": "state_queued_verify",
+      "value": "Queued to verify"
+    },
+    {
+      "name": "state_verifying",
+      "value": "Verifying"
+    },
+    {
+      "name": "state_queued_download",
+      "value": "Queued"
+    },
+    {
+      "name": "state_downloading",
+      "value": "Downloading"
+    },
+    {
+      "name": "state_queued_seed",
+      "value": "Queued to seed"
+    },
+    {
+      "name": "state_seeding",
+      "value": "Seeding"
+    },
+    {
+      "name": "state_finished",
+      "value": "Finished"
+    },
+    {
+      "name": "state_error",
+      "value": "Error"
+    },
+    {
+      "name": "state_verifying_progress",
+      "value": "Checking existing data (%s)"
+    },
+    {
+      "name": "state_downloading_progress",
+      "value": "Downloading data (%s)"
+    },
+    {
+      "name": "list_uploaded_ratio",
+      "value": "%s (ratio: %s)"
+    },
+    {
+      "name": "detail_tab_info",
+      "value": "Info"
+    },
+    {
+      "name": "detail_tab_files",
+      "value": "Files"
+    },
+    {
+      "name": "detail_tab_trackers",
+      "value": "Trackers"
+    },
+    {
+      "name": "detail_tab_peers",
+      "value": "Peers"
+    },
+    {
+      "name": "detail_tab_options",
+      "value": "Options"
+    },
+    {
+      "name": "detail_field_hash",
+      "value": "Hash"
+    },
+    {
+      "name": "detail_field_uploaded",
+      "value": "Uploaded"
+    },
+    {
+      "name": "detail_field_eta",
+      "value": "Time remaining"
+    },
+    {
+      "name": "detail_field_location",
+      "value": "Location"
+    },
+    {
+      "name": "detail_field_added",
+      "value": "Added"
+    },
+    {
+      "name": "detail_field_created",
+      "value": "Created"
+    },
+    {
+      "name": "detail_field_started",
+      "value": "Started"
+    },
+    {
+      "name": "detail_field_finished",
+      "value": "Finished"
+    },
+    {
+      "name": "detail_field_last_activity",
+      "value": "Last activity"
+    },
+    {
+      "name": "detail_field_creator",
+      "value": "Creator"
+    },
+    {
+      "name": "detail_field_comment",
+      "value": "Comment"
+    },
+    {
+      "name": "detail_field_privacy",
+      "value": "Private torrent"
+    },
+    {
+      "name": "detail_field_public",
+      "value": "Public torrent"
+    },
+    {
+      "name": "detail_field_peers",
+      "value": "Peers"
+    },
+    {
+      "name": "detail_field_trackers",
+      "value": "Trackers"
+    },
+    {
+      "name": "detail_field_error",
+      "value": "Error"
+    },
+    {
+      "name": "detail_field_group",
+      "value": "Bandwidth group"
+    },
+    {
+      "name": "detail_field_labels",
+      "value": "Labels"
+    },
+    {
+      "name": "info_section_torrent",
+      "value": "Torrent"
+    },
+    {
+      "name": "info_section_transfer",
+      "value": "Transfer"
+    },
+    {
+      "name": "info_section_dates",
+      "value": "Dates"
+    },
+    {
+      "name": "info_section_runtime",
+      "value": "Runtime"
+    },
+    {
+      "name": "info_field_total_size",
+      "value": "Total size"
+    },
+    {
+      "name": "info_field_total_downloaded",
+      "value": "Total downloaded"
+    },
+    {
+      "name": "info_field_average_speed",
+      "value": "Average speed"
+    },
+    {
+      "name": "info_field_current_speed",
+      "value": "Current speed"
+    },
+    {
+      "name": "info_field_availability",
+      "value": "Availability"
+    },
+    {
+      "name": "info_field_magnet",
+      "value": "Magnet"
+    },
+    {
+      "name": "info_runtime_downloaded",
+      "value": "Downloading"
+    },
+    {
+      "name": "info_runtime_seeded",
+      "value": "Seeding"
+    },
+    {
+      "name": "info_size_with_pieces",
+      "value": "%s (%s pieces of %s)"
+    },
+    {
+      "name": "info_downloaded_with_percent",
+      "value": "%s (%s)"
+    },
+    {
+      "name": "info_uploaded_with_ratio",
+      "value": "%s (ratio: %s)"
+    },
+    {
+      "name": "action_start",
+      "value": "Resume"
+    },
+    {
+      "name": "action_pause",
+      "value": "Pause"
+    },
+    {
+      "name": "action_verify",
+      "value": "Verify local data"
+    },
+    {
+      "name": "action_reannounce",
+      "value": "Ask for more peers"
+    },
+    {
+      "name": "action_rename",
+      "value": "Rename"
+    },
+    {
+      "name": "action_set_location",
+      "value": "Set location"
+    },
+    {
+      "name": "action_share",
+      "value": "Share torrent"
+    },
+    {
+      "name": "action_remove",
+      "value": "Remove torrent"
+    },
+    {
+      "name": "action_rename_hint",
+      "value": "New name"
+    },
+    {
+      "name": "action_rename_empty",
+      "value": "Enter a name"
+    },
+    {
+      "name": "action_location_hint",
+      "value": "/downloads/music"
+    },
+    {
+      "name": "action_location_empty",
+      "value": "Enter a path"
+    },
+    {
+      "name": "action_location_move",
+      "value": "Also move the downloaded files"
+    },
+    {
+      "name": "action_share_failed",
+      "value": "Could not open the share sheet"
+    },
+    {
+      "name": "action_requested",
+      "value": "Requested"
+    },
+    {
+      "name": "files_progress",
+      "value": "%s of %s (%s)"
+    },
+    {
+      "name": "trackers_last_update",
+      "value": "Last update"
+    },
+    {
+      "name": "trackers_next_update",
+      "value": "Next update in"
+    },
+    {
+      "name": "trackers_last_scrape",
+      "value": "Last scrape"
+    },
+    {
+      "name": "trackers_seeds",
+      "value": "Seeds"
+    },
+    {
+      "name": "trackers_peers",
+      "value": "Peers"
+    },
+    {
+      "name": "trackers_downloaded",
+      "value": "Downloaded"
+    },
+    {
+      "name": "trackers_level",
+      "value": "Tier %s"
+    },
+    {
+      "name": "trackers_announce_state",
+      "value": "Announce"
+    },
+    {
+      "name": "trackers_scrape_state",
+      "value": "Scrape"
+    },
+    {
+      "name": "trackers_state_inactive",
+      "value": "Idle"
+    },
+    {
+      "name": "trackers_state_waiting",
+      "value": "Waiting"
+    },
+    {
+      "name": "trackers_state_queued",
+      "value": "Queued"
+    },
+    {
+      "name": "trackers_state_active",
+      "value": "Active"
+    },
+    {
+      "name": "peers_address",
+      "value": "Address"
+    },
+    {
+      "name": "peers_client",
+      "value": "Client"
+    },
+    {
+      "name": "peers_progress",
+      "value": "Progress"
+    },
+    {
+      "name": "peers_down",
+      "value": "Down"
+    },
+    {
+      "name": "peers_up",
+      "value": "Up"
+    },
+    {
+      "name": "peers_flags",
+      "value": "Flags"
+    },
+    {
+      "name": "peers_encrypted",
+      "value": "Encrypted"
+    },
+    {
+      "name": "peers_incoming",
+      "value": "Incoming"
+    },
+    {
+      "name": "options_transfer",
+      "value": "Transfer"
+    },
+    {
+      "name": "options_download_limit",
+      "value": "Download limit"
+    },
+    {
+      "name": "options_upload_limit",
+      "value": "Upload limit"
+    },
+    {
+      "name": "options_speed_unit",
+      "value": "KB/s"
+    },
+    {
+      "name": "options_priority",
+      "value": "Priority"
+    },
+    {
+      "name": "options_priority_low",
+      "value": "Low"
+    },
+    {
+      "name": "options_priority_normal",
+      "value": "Normal"
+    },
+    {
+      "name": "options_priority_high",
+      "value": "High"
+    },
+    {
+      "name": "options_sequential",
+      "value": "Sequential download"
+    },
+    {
+      "name": "options_seeding",
+      "value": "Seeding"
+    },
+    {
+      "name": "options_ratio_mode",
+      "value": "Ratio limit"
+    },
+    {
+      "name": "options_ratio_limit",
+      "value": "Ratio value"
+    },
+    {
+      "name": "options_idle_mode",
+      "value": "Idle limit"
+    },
+    {
+      "name": "options_idle_limit",
+      "value": "Idle minutes"
+    },
+    {
+      "name": "options_mode_global",
+      "value": "Use global"
+    },
+    {
+      "name": "options_mode_single",
+      "value": "Custom"
+    },
+    {
+      "name": "options_mode_unlimited",
+      "value": "Unlimited"
+    },
+    {
+      "name": "options_other",
+      "value": "Other"
+    },
+    {
+      "name": "options_queue_position",
+      "value": "Queue position"
+    },
+    {
+      "name": "options_peer_limit",
+      "value": "Peer limit"
+    },
+    {
+      "name": "options_group",
+      "value": "Bandwidth group"
+    },
+    {
+      "name": "options_labels",
+      "value": "Labels"
+    },
+    {
+      "name": "options_labels_hint",
+      "value": "Separate labels with commas"
+    },
+    {
+      "name": "options_saved",
+      "value": "Saved"
+    },
+    {
+      "name": "add_method",
+      "value": "Method"
+    },
+    {
+      "name": "add_method_link",
+      "value": "Link"
+    },
+    {
+      "name": "add_method_file",
+      "value": "File"
+    },
+    {
+      "name": "add_link_hint",
+      "value": "magnet: or https://…/file.torrent"
+    },
+    {
+      "name": "add_pick_file",
+      "value": "Choose a .torrent file"
+    },
+    {
+      "name": "add_no_file",
+      "value": "No file selected"
+    },
+    {
+      "name": "add_download_dir",
+      "value": "Download to"
+    },
+    {
+      "name": "add_download_dir_hint",
+      "value": "Leave empty for the server default"
+    },
+    {
+      "name": "add_start_paused",
+      "value": "Add paused"
+    },
+    {
+      "name": "add_submit",
+      "value": "Add"
+    },
+    {
+      "name": "add_result_added",
+      "value": "Torrent added"
+    },
+    {
+      "name": "add_result_duplicate",
+      "value": "Already in the list"
+    },
+    {
+      "name": "add_need_input",
+      "value": "Enter a link or choose a file"
+    },
+    {
+      "name": "add_files_title",
+      "value": "Files to download"
+    },
+    {
+      "name": "add_files_selected",
+      "value": "Selected %s of %s (%s)"
+    },
+    {
+      "name": "add_files_none",
+      "value": "Select at least one file"
+    },
+    {
+      "name": "add_files_invalid",
+      "value": "Not a valid .torrent file"
+    },
+    {
+      "name": "servers_empty",
+      "value": "No servers yet"
+    },
+    {
+      "name": "servers_empty_hint",
+      "value": "Add one to get started"
+    },
+    {
+      "name": "servers_name",
+      "value": "Name"
+    },
+    {
+      "name": "servers_name_hint",
+      "value": "e.g. NAS"
+    },
+    {
+      "name": "servers_host",
+      "value": "Host"
+    },
+    {
+      "name": "servers_host_hint",
+      "value": "IP address or host name"
+    },
+    {
+      "name": "servers_port",
+      "value": "Port"
+    },
+    {
+      "name": "servers_path",
+      "value": "RPC path"
+    },
+    {
+      "name": "servers_path_hint",
+      "value": "/transmission/rpc"
+    },
+    {
+      "name": "servers_secure",
+      "value": "Use HTTPS"
+    },
+    {
+      "name": "servers_secure_desc",
+      "value": "Encrypt the connection to the server"
+    },
+    {
+      "name": "servers_username",
+      "value": "User name"
+    },
+    {
+      "name": "servers_username_hint",
+      "value": "Optional"
+    },
+    {
+      "name": "servers_password",
+      "value": "Password"
+    },
+    {
+      "name": "servers_password_hint",
+      "value": "Optional"
+    },
+    {
+      "name": "servers_test",
+      "value": "Test connection"
+    },
+    {
+      "name": "servers_testing",
+      "value": "Testing…"
+    },
+    {
+      "name": "servers_test_ok",
+      "value": "Connected"
+    },
+    {
+      "name": "servers_delete_confirm",
+      "value": "Delete this server?"
+    },
+    {
+      "name": "servers_invalid_host",
+      "value": "Enter a host name or IP address"
+    },
+    {
+      "name": "servers_invalid_port",
+      "value": "Port must be between 1 and 65535"
+    },
+    {
+      "name": "selection_count",
+      "value": "Selected: %s"
+    },
+    {
+      "name": "selection_select_all",
+      "value": "Select all"
+    },
+    {
+      "name": "settings_theme",
+      "value": "Appearance"
+    },
+    {
+      "name": "settings_theme_system",
+      "value": "Follow system"
+    },
+    {
+      "name": "settings_theme_light",
+      "value": "Light"
+    },
+    {
+      "name": "settings_theme_dark",
+      "value": "Dark"
+    },
+    {
+      "name": "settings_refresh",
+      "value": "Refresh interval"
+    },
+    {
+      "name": "settings_refresh_desc",
+      "value": "How often the torrent list is reloaded"
+    },
+    {
+      "name": "settings_refresh_off",
+      "value": "Manual only"
+    },
+    {
+      "name": "settings_notifications",
+      "value": "Notifications"
+    },
+    {
+      "name": "settings_notifications_desc",
+      "value": "Notify when a torrent finishes"
+    },
+    {
+      "name": "settings_show_fab",
+      "value": "Show the add button"
+    },
+    {
+      "name": "settings_show_fab_desc",
+      "value": "Floating button on the torrent list"
+    },
+    {
+      "name": "settings_advanced",
+      "value": "Advanced"
+    },
+    {
+      "name": "settings_advanced_desc",
+      "value": "Connection and protocol tuning"
+    },
+    {
+      "name": "settings_timeout",
+      "value": "Request timeout"
+    },
+    {
+      "name": "settings_timeout_desc",
+      "value": "Seconds before a request is abandoned"
+    },
+    {
+      "name": "settings_api_style",
+      "value": "API dialect"
+    },
+    {
+      "name": "settings_api_style_desc",
+      "value": "Change only if auto-detection misbehaves"
+    },
+    {
+      "name": "settings_api_style_auto",
+      "value": "Auto detect"
+    },
+    {
+      "name": "settings_api_style_modern",
+      "value": "JSON-RPC (4.1.0+)"
+    },
+    {
+      "name": "settings_api_style_legacy",
+      "value": "Legacy (< 4.1.0)"
+    },
+    {
+      "name": "settings_section_general",
+      "value": "General"
+    },
+    {
+      "name": "settings_section_connection",
+      "value": "Connection"
+    },
+    {
+      "name": "status_not_connected",
+      "value": "Not connected"
+    },
+    {
+      "name": "status_connecting",
+      "value": "Connecting…"
+    },
+    {
+      "name": "status_no_server",
+      "value": "Add a server to begin"
+    },
+    {
+      "name": "status_disconnected",
+      "value": "Disconnected"
+    },
+    {
+      "name": "error_network",
+      "value": "Cannot reach the server"
+    },
+    {
+      "name": "error_auth",
+      "value": "Authentication failed"
+    },
+    {
+      "name": "error_timeout",
+      "value": "The server did not answer in time"
+    },
+    {
+      "name": "error_protocol",
+      "value": "Unexpected server response"
+    },
+    {
+      "name": "error_config",
+      "value": "Invalid configuration"
+    },
+    {
+      "name": "error_unsupported",
+      "value": "Not supported by this server"
+    },
+    {
+      "name": "notification_channel",
+      "value": "Torrent finished"
+    },
+    {
+      "name": "notification_done_title",
+      "value": "Download finished"
+    },
+    {
+      "name": "about_version",
+      "value": "Version %s (%s)"
+    },
+    {
+      "name": "about_intro_title",
+      "value": "What this is"
+    },
+    {
+      "name": "about_intro",
+      "value": "A remote control for the Transmission BitTorrent daemon, written for HarmonyOS. It talks to the daemon directly over its RPC interface — there is no cloud service in between, and no account to create.Project Open Source Repository https://github.com/huang1996/transmission-remote"
+    },
+    {
+      "name": "about_features_title",
+      "value": "Features"
+    },
+    {
+      "name": "about_feature_torrents",
+      "value": "Torrents"
+    },
+    {
+      "name": "about_feature_torrents_desc",
+      "value": "Start, pause, verify, re-announce or remove; batch commands via multi-select"
+    },
+    {
+      "name": "about_feature_files",
+      "value": "Selective download"
+    },
+    {
+      "name": "about_feature_files_desc",
+      "value": "Pick which files to download; finished files are locked"
+    },
+    {
+      "name": "about_feature_detail",
+      "value": "Details"
+    },
+    {
+      "name": "about_feature_detail_desc",
+      "value": "Peers, trackers, per-torrent limits, seeding rules and a file browser"
+    },
+    {
+      "name": "about_feature_servers",
+      "value": "Servers"
+    },
+    {
+      "name": "about_feature_servers_desc",
+      "value": "Keep several daemons and switch between them"
+    },
+    {
+      "name": "about_feature_appearance",
+      "value": "Appearance"
+    },
+    {
+      "name": "about_feature_appearance_desc",
+      "value": "Light and dark palettes, following the system or pinned by hand"
+    },
+    {
+      "name": "about_compat_title",
+      "value": "Compatibility"
+    },
+    {
+      "name": "about_compat_rpc",
+      "value": "Speaks both the modern JSON-RPC 2.0 API (Transmission 4.1 and newer) and the legacy bespoke API, so older daemons work without changes."
+    },
+    {
+      "name": "about_compat_platform",
+      "value": "Requires HarmonyOS 5.0 (API 12) or newer; built with the Stage model."
+    },
+    {
+      "name": "about_license_title",
+      "value": "License"
+    },
+    {
+      "name": "about_license_value",
+      "value": "GPL-2.0-only OR GPL-3.0-only"
+    },
+    {
+      "name": "about_license_note",
+      "value": "Distributed under the same dual licence as the Transmission project it talks to. A few constant tables are generated from the Transmission source tree, which is why the licence carries over."
+    },
+    {
+      "name": "about_build_title",
+      "value": "Build"
+    },
+    {
+      "name": "about_build_package",
+      "value": "Bundle name"
+    },
+    {
+      "name": "about_build_version",
+      "value": "Version"
+    },
+    {
+      "name": "about_build_version_code",
+      "value": "Version code"
+    },
+    {
+      "name": "about_build_target",
+      "value": "Target API"
+    },
+    {
+      "name": "about_copyright",
+      "value": "© Transmission Remote contributors"
+    }
+  ]
+}

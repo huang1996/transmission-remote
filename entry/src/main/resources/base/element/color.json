@@ -1,0 +1,120 @@
+{
+  "color": [
+    {
+      "name": "app_background",
+      "value": "#F2F3F5"
+    },
+    {
+      "name": "surface",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "surface_alt",
+      "value": "#F7F8FA"
+    },
+    {
+      "name": "surface_pressed",
+      "value": "#ECEEF1"
+    },
+    {
+      "name": "drawer_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "text_primary",
+      "value": "#182431"
+    },
+    {
+      "name": "text_secondary",
+      "value": "#6B7480"
+    },
+    {
+      "name": "text_tertiary",
+      "value": "#9AA2AD"
+    },
+    {
+      "name": "text_on_accent",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "divider",
+      "value": "#E4E7EC"
+    },
+    {
+      "name": "accent",
+      "value": "#2E6FF2"
+    },
+    {
+      "name": "accent_soft",
+      "value": "#E8EFFD"
+    },
+    {
+      "name": "icon",
+      "value": "#6B7480"
+    },
+    {
+      "name": "icon_active",
+      "value": "#2E6FF2"
+    },
+    {
+      "name": "success",
+      "value": "#2FA35C"
+    },
+    {
+      "name": "warning",
+      "value": "#E08A00"
+    },
+    {
+      "name": "danger",
+      "value": "#DB3B3B"
+    },
+    {
+      "name": "progress_track",
+      "value": "#E4E7EC"
+    },
+    {
+      "name": "progress_fill",
+      "value": "#2E6FF2"
+    },
+    {
+      "name": "progress_fill_done",
+      "value": "#2FA35C"
+    },
+    {
+      "name": "progress_fill_error",
+      "value": "#DB3B3B"
+    },
+    {
+      "name": "progress_fill_verify",
+      "value": "#EF9F27"
+    },
+    {
+      "name": "scrim",
+      "value": "#66000000"
+    },
+    {
+      "name": "fab_background",
+      "value": "#2E6FF2"
+    },
+    {
+      "name": "fab_label_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "selected_row",
+      "value": "#E8EFFD"
+    },
+    {
+      "name": "start_window_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "bottom_bar_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "top_bar_background",
+      "value": "#FFFFFF"
+    }
+  ]
+}

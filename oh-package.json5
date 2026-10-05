@@ -1,0 +1,13 @@
+{
+  "modelVersion": "5.0.0",
+  "name": "TransmissionRemote",
+  "version": "1.0.0",
+  "description": "TransmissionRemote — a HarmonyOS remote control for the Transmission BitTorrent daemon, together with the ArkTS RPC SDK it is built on.",
+  "main": "",
+  "author": "TransmissionRemote contributors",
+  "license": "GPL-2.0-only OR GPL-3.0-only",
+  "dependencies": {},
+  "devDependencies": {
+    "@ohos/hypium": "1.0.19"
+  }
+}

@@ -1367,17 +1367,17 @@ struct Index {
         if (dir.length === 0) {
           return undefined;
         }
-        return client.system.freeSpace(dir).catch((error:object) => {
-          // TODO: Implement error handling.
-          this.statusMessage = describeErrorResource(error);
+        return client.system.freeSpace(dir).catch((error: object) => {
+          // 剩余空间是次要信息：查询失败（例如服务端 download-dir 指向了不存在的目录，
+          // free_space 会返回 RPC 5 / "No such file or directory"）时只降级显示为「—」，
+          // 绝不能写 statusMessage —— 那会用一个次要错误盖掉正常的连接状态，
+          // 让人误以为连不上服务器。
           this.logFailure(error);
-          return undefined
-        })
+          return undefined;
+        });
       })
       .then((space: FreeSpace | undefined) => {
-        if (space !== undefined) {
-          this.freeSpaceLabel = formatBytes(space.sizeBytes);
-        }
+        this.freeSpaceLabel = space === undefined ? '—' : formatBytes(space.sizeBytes);
       })
       .catch((error: Object) => {
         this.freeSpaceLabel = '—';

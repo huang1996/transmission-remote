@@ -20,9 +20,11 @@
 import { preferences } from '@kit.ArkData';
 import { common } from '@kit.AbilityKit';
 import {
+  HilogLogger,
   Json,
   JsonArray,
   JsonObject,
+  LogLevel,
   TransmissionClient,
   TransmissionClientBuilder,
   TransmissionError,
@@ -299,6 +301,9 @@ export class AppContext {
       .url(server.url)
       .apiStyleMode(this.settings.apiStyleMode)
       .timeout(this.timeoutMs)
+      // 路由 SDK 诊断到 hilog（tag 为 TransmissionSDK/*）。DEBUG 级会打印
+      // 每次 HTTP 请求体与响应状态，是排查连接问题唯一的证据来源。
+      .logger(new HilogLogger(LogLevel.DEBUG))
       .onApiStyleResolved((style) => {
         // The resolved dialect is intentionally not persisted: negotiation is
         // cheap and a stale guess would be worse than re-detecting it.
@@ -417,6 +422,13 @@ export class AppContext {
 /** Maps a failure onto a string resource the UI can show. */
 export function describeErrorResource(error: Object): Resource {
   if (error instanceof TransmissionError) {
+    // 打出完整错误（kind / rpcCode / httpStatus / request / cause），否则 UI 只显示
+    // 一句泛化的文案，真实原因会被吞掉，无法排查。
+    console.error(
+      `TransmissionError kind=${error.kind} rpcCode=${error.rpcCode ?? '-'} ` +
+        `httpStatus=${error.httpStatus ?? '-'} request=${error.request ?? '-'} ` +
+        `message=${error.fullMessage} cause=${error.cause === undefined ? '-' : error.cause.message}`,
+    );
     switch (error.kind) {
       case TransmissionErrorKind.AUTHENTICATION:
         return $r('app.string.error_auth');
@@ -434,5 +446,10 @@ export function describeErrorResource(error: Object): Resource {
         return $r('app.string.error_protocol');
     }
   }
+  // 非 TransmissionError：说明抛出的是普通异常（TypeError 等），这才是最需要被看到的。
+  const plain = error as Error;
+  console.error(
+    `Non-TransmissionError thrown: name=${plain?.name ?? '?'} message=${plain?.message ?? '?'} stack=${plain?.stack ?? '?'}`,
+  );
   return $r('app.string.error_protocol');
 }
